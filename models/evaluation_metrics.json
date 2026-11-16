@@ -1,0 +1,95 @@
+{
+  "roc_auc": 0.9478968792401627,
+  "eer": 0.10569649840940445,
+  "eer_threshold": 0.36239585280418396,
+  "best_f1": 0.9248658268633133,
+  "best_f1_threshold": 0.47065576910972595,
+  "total_frames_evaluated": 1332,
+  "total_anomalous_frames": 595,
+  "clip_details": [
+    {
+      "clip_name": "Test001",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4774774774774775,
+      "min_error": 4.230554580688477,
+      "max_error": 8.48906421661377
+    },
+    {
+      "clip_name": "Test002",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4594594594594595,
+      "min_error": 4.476279258728027,
+      "max_error": 8.099621772766113
+    },
+    {
+      "clip_name": "Test003",
+      "num_frames": 111,
+      "anomaly_ratio": 0.42342342342342343,
+      "min_error": 4.434402942657471,
+      "max_error": 8.024344444274902
+    },
+    {
+      "clip_name": "Test004",
+      "num_frames": 111,
+      "anomaly_ratio": 0.45045045045045046,
+      "min_error": 3.641552209854126,
+      "max_error": 7.97074556350708
+    },
+    {
+      "clip_name": "Test005",
+      "num_frames": 111,
+      "anomaly_ratio": 0.36936936936936937,
+      "min_error": 2.9885261058807373,
+      "max_error": 8.593077659606934
+    },
+    {
+      "clip_name": "Test006",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4774774774774775,
+      "min_error": 3.0178632736206055,
+      "max_error": 7.646568775177002
+    },
+    {
+      "clip_name": "Test007",
+      "num_frames": 111,
+      "anomaly_ratio": 0.36936936936936937,
+      "min_error": 3.3683152198791504,
+      "max_error": 8.602689743041992
+    },
+    {
+      "clip_name": "Test008",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4594594594594595,
+      "min_error": 4.150991439819336,
+      "max_error": 7.82887601852417
+    },
+    {
+      "clip_name": "Test009",
+      "num_frames": 111,
+      "anomaly_ratio": 0.38738738738738737,
+      "min_error": 4.492805004119873,
+      "max_error": 7.862133979797363
+    },
+    {
+      "clip_name": "Test010",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4954954954954955,
+      "min_error": 4.354043483734131,
+      "max_error": 8.601057052612305
+    },
+    {
+      "clip_name": "Test011",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4954954954954955,
+      "min_error": 3.633620023727417,
+      "max_error": 7.439238548278809
+    },
+    {
+      "clip_name": "Test012",
+      "num_frames": 111,
+      "anomaly_ratio": 0.4954954954954955,
+      "min_error": 3.4885289669036865,
+      "max_error": 8.08769702911377
+    }
+  ]
+}

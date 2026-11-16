@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints and Large Weights
+*.pt
+*.pth
+*.bin
+*.engine
+!models/checkpoints/.gitkeep
+!models/engine/.gitkeep
+!models/onnx/.gitkeep
+
+# Datasets (Automatically downloaded or synthesized by src/dataset.py)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/UCSDped2/
+data/raw/UCSDped2/*
+!data/raw/UCSDped2/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Video and Media outputs
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual Environments
+.venv/
+venv/
+ENV/

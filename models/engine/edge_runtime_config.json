@@ -1,0 +1,51 @@
+{
+  "engine_type": "onnxruntime_edge_fallback",
+  "onnx_model_path": "D:\\My_project\\Video\\edge_anomaly_detector\\models\\onnx\\anomaly_detector.onnx",
+  "precision": "fp16",
+  "input_signature": {
+    "name": "input_seq",
+    "shape": [
+      1,
+      10,
+      1,
+      128,
+      128
+    ]
+  },
+  "output_signature": {
+    "name": "reconstructed_seq",
+    "shape": [
+      1,
+      10,
+      1,
+      128,
+      128
+    ]
+  },
+  "execution_providers": [
+    "CPUExecutionProvider"
+  ],
+  "dynamic_batch_profile": {
+    "min": [
+      1,
+      10,
+      1,
+      128,
+      128
+    ],
+    "opt": [
+      1,
+      10,
+      1,
+      128,
+      128
+    ],
+    "max": [
+      4,
+      10,
+      1,
+      128,
+      128
+    ]
+  }
+}
